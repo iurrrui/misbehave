@@ -1,5 +1,5 @@
 # Misbehave
-Browser extension for pranking.
+Browser extension for pranking — everything the cursor touches disappears.
 
 1. Go to extensions window
 2. Click "developer mode"
