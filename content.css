@@ -1,0 +1,20 @@
+/* Make hovered elements invisible but keep layout */
+.hover-disappeared {
+  opacity: 0 !important;
+  cursor: default !important;
+  pointer-events: none !important;
+}
+
+/* Override all possible cursor types */
+.hover-disappeared,
+.hover-disappeared * {
+  cursor: default !important;
+}
+
+/* Specifically override common cursor types */
+a.hover-disappeared,
+button.hover-disappeared,
+img.hover-disappeared,
+[role="button"].hover-disappeared {
+  cursor: default !important;
+}
